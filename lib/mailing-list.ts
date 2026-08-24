@@ -72,7 +72,7 @@ async function resendRequest(path: string, init: RequestInit) {
 
 export async function sendConfirmationEmail(email: string, confirmUrl: string) {
   if (!process.env.RESEND_API_KEY && !isProduction) return false;
-  const from = process.env.NEWSLETTER_FROM_EMAIL || "I4I Centre <hello@i4icentre.com>";
+  const from = process.env.NEWSLETTER_FROM_EMAIL || "I4I Centre <i4i@tet-edu.com>";
   await resendRequest("/emails", {
     method: "POST",
     headers: { "Idempotency-Key": `i4i-confirm-${createHmac("sha256", secret()).update(email).digest("hex").slice(0, 32)}` },
@@ -108,7 +108,7 @@ export async function confirmSubscriber(email: string) {
 
 export async function sendWelcomeEmail(email: string, unsubscribeUrl: string) {
   if (!process.env.RESEND_API_KEY && !isProduction) return;
-  const from = process.env.NEWSLETTER_FROM_EMAIL || "I4I Centre <hello@i4icentre.com>";
+  const from = process.env.NEWSLETTER_FROM_EMAIL || "I4I Centre <i4i@tet-edu.com>";
   await resendRequest("/emails", {
     method: "POST",
     body: JSON.stringify({
