@@ -73,9 +73,13 @@ async function resendRequest(path: string, init: RequestInit) {
 export async function sendConfirmationEmail(email: string, confirmUrl: string) {
   if (!process.env.RESEND_API_KEY && !isProduction) return false;
   const from = process.env.NEWSLETTER_FROM_EMAIL || "I4I Centre <i4i@tet-edu.com>";
+  const confirmationRequestId = createHmac("sha256", secret())
+    .update(`${email}:${confirmUrl}`)
+    .digest("hex")
+    .slice(0, 32);
   await resendRequest("/emails", {
     method: "POST",
-    headers: { "Idempotency-Key": `i4i-confirm-${createHmac("sha256", secret()).update(email).digest("hex").slice(0, 32)}` },
+    headers: { "Idempotency-Key": `i4i-confirm-${confirmationRequestId}` },
     body: JSON.stringify({
       from,
       to: [email],
