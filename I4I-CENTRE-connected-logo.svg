@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="620" viewBox="0 0 1800 620" role="img" aria-labelledby="title desc">
+  <title id="title">I4I connected-channel logo</title>
+  <desc id="desc">An I4I connected-channel mark in Insight Ink, with a traced orange dot above the first I and a traced green dot above the second I.</desc>
+
+  <rect width="1800" height="620" fill="#FFFFFF"/>
+
+  <!-- Original channel-built I4I letterforms, using a broadcast-like continuous-line principle. -->
+  <g>
+    <!-- Shortened first I with traced Innovation Orange dot. -->
+    <circle cx="562.5" cy="160" r="52" fill="#FF6633"/>
+    <circle cx="562.5" cy="160" r="20" fill="#FFFFFF"/>
+    <rect x="500" y="235" width="125" height="225" rx="18" fill="#1E2528"/>
+    <rect x="545" y="258" width="35" height="179" rx="10" fill="#FFFFFF"/>
+
+    <path d="M 875 160 L 745 330 H 1015" fill="none" stroke="#1E2528" stroke-width="112" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 960 265 V 460" fill="none" stroke="#1E2528" stroke-width="112" stroke-linecap="round"/>
+    <path d="M 875 160 L 745 330 H 1015" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 960 265 V 460" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round"/>
+
+    <!-- Shortened second I with traced Deep Evergreen dot. -->
+    <circle cx="1182.5" cy="160" r="52" fill="#176B5B"/>
+    <circle cx="1182.5" cy="160" r="20" fill="#FFFFFF"/>
+    <rect x="1120" y="235" width="125" height="225" rx="18" fill="#1E2528"/>
+    <rect x="1165" y="258" width="35" height="179" rx="10" fill="#FFFFFF"/>
+  </g>
+</svg>

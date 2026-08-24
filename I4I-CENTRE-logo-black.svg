@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="600" viewBox="0 0 1800 600" role="img" aria-labelledby="title desc">
+  <title id="title">I4I Centre black wordmark</title>
+  <desc id="desc">A clean uppercase black Pathway Extreme wordmark reading I4I CENTRE.</desc>
+
+  <text x="900" y="375"
+        text-anchor="middle"
+        fill="#000000"
+        font-family="Pathway Extreme, Arial, sans-serif"
+        font-size="220"
+        font-weight="600"
+        letter-spacing="5">I4I CENTRE</text>
+</svg>

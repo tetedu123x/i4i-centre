@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="700" viewBox="0 0 1800 700" role="img" aria-labelledby="title desc">
+  <title id="title">I4I Centre wordmark</title>
+  <desc id="desc">A clean lowercase Pathway Extreme wordmark reading i4i centre. The first i has an orange dot and the second i has a green dot.</desc>
+
+  <g aria-label="i4i centre">
+    <!-- Dotless letters allow the two brand-colour dots to remain exact. -->
+    <text x="250" y="430" fill="#1E2528" font-family="Pathway Extreme, Arial, sans-serif" font-size="270" font-weight="700" letter-spacing="-13">ı4ı</text>
+
+    <!-- Innovation begins the journey; sustainable impact completes it. -->
+    <circle cx="301" cy="206" r="25" fill="#FF6633"/>
+    <circle cx="584" cy="206" r="25" fill="#176B5B"/>
+
+    <!-- Lighter descriptor keeps the memorable i4i element dominant. -->
+    <text x="720" y="430" fill="#1E2528" font-family="Pathway Extreme, Arial, sans-serif" font-size="205" font-weight="500" letter-spacing="-5">centre</text>
+  </g>
+</svg>

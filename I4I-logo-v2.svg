@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-labelledby="title desc">
+  <title id="title">I4I typographic logo concept</title>
+  <desc id="desc">A text-only I4I logo. Two I pillars frame an oversized orange four whose crossbar connects them. The final green I inherits the diagonal angle of the four.</desc>
+
+  <rect width="1600" height="800" fill="#F7F4EE"/>
+
+  <g aria-label="I4I">
+    <!-- Insight/input: a stable, precise vertical pillar. -->
+    <path d="M 410 245 H 535 V 570 H 410 Z" fill="#1E2528"/>
+
+    <!-- Innovation/transformation: deliberately taller than both I pillars. -->
+    <text x="575" y="570" fill="#FF6633" font-family="Pathway Extreme, Arial, sans-serif" font-size="455" font-weight="800">4</text>
+
+    <!-- The 4's crossbar quietly bridges both gaps: ideas translated into outcomes. -->
+    <path d="M 535 414 H 599 V 444 H 535 Z" fill="#FF6633"/>
+    <path d="M 914 414 H 1018 V 444 H 914 Z" fill="#FF6633"/>
+
+    <!-- Sustainable impact: the second I inherits the 4's forward diagonal. -->
+    <path d="M 1018 276 L 1050 245 H 1175 V 570 H 1018 Z" fill="#176B5B"/>
+
+  </g>
+</svg>
