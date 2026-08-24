@@ -37,14 +37,20 @@ export default function Home() {
       <section className="brandStage" aria-labelledby="coming-soon-title">
         <Image
           className="i4iLogo"
-          src="/i4i-centre-logo.png"
+          src="/i4i-centre-logo-tet.png"
           alt="I4I — Innovation for Impact Centre"
           width={1536}
           height={1024}
           priority
+          unoptimized
         />
-        <h1 id="coming-soon-title">Coming soon.</h1>
-        <MailingListForm />
+        <div className="launchZone">
+          <div className="launchMessage">
+            <span className="launchSignal" aria-hidden="true" />
+            <h1 id="coming-soon-title">Coming soon.</h1>
+          </div>
+          <MailingListForm />
+        </div>
       </section>
 
       <footer className="endorsement">
